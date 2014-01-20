@@ -1,0 +1,11 @@
+.hackertagger-tag {
+    color: #0053B3;
+    cursor: pointer;
+}
+
+.hackertagger-textinput {
+    color: #0053B3;
+    font-size: 7pt;
+    line-height: 7pt;
+    margin-left: 5px;
+}
