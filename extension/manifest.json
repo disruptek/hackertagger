@@ -2,12 +2,19 @@
     "manifest_version": 2,
     "name": "HackerTagger",
     "short_name": "HackerTagger",
-    "version": "19",
+    "version": "1",
     "description": "Tag users on HN with useful metadata.",
+    "icons": {
+        "16": "images/icon_16.png",
+        "48": "images/icon_48.png",
+        "128": "images/icon_128.png"
+    },
+    "homepage_url": "https://github.com/guzba/hackertagger",
     "minimum_chrome_version": "23",
     "content_scripts": [
         {
             "matches": [
+                "http://news.ycombinator.com/*",
                 "https://news.ycombinator.com/*"
             ],
             "js": [

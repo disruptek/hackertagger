@@ -1,7 +1,9 @@
+var removeHtmlRegex = /(<([^>]+)>)/ig;
+
 var userElements = document.querySelectorAll('a[href*="user?id="]');
 for (var i = 1; i < userElements.length; i++) {
     var userElement = userElements[i];
-    var username = userElement.innerHTML.trim();
+    var username = userElement.innerHTML.trim().replace(removeHtmlRegex, '');
 
     (function(username, i) {
         var tagLink = getTagLink(username, i);
