@@ -1,28 +1,6 @@
-## HackerTagger
-
-HackerTagger is a Chrome extension that enables you to tag users on Hacker News with custom metadata.
-
-This can be used to tag founders or employees of companies, to mark those who've made a comment that has earned them being ignored--anything like that. It's really up to you.
-
-You can grab the Chrome extension here: https://chrome.google.com/webstore/detail/hackertagger/geiililcplncieampkfliiilkajhdkkp
-
-Before:
-
-![Before being tagged](https://github.com/guzba/hackertagger/blob/master/before.png?raw=true)
-
-After:
-
-![After being tagged](https://github.com/guzba/hackertagger/blob/master/after.png?raw=true)
-
---------
-
-These tags are stored in localStorage for the domain so clearing browser data will completely blow everything away. Taking a backup (lol) is easy though, just JSON.stringify(localStorage) and save that somewhere.
-
-## License
-
 (The MIT License)
 
-Copyright (c) 2014 Ryan Oldenburg &lt;ryanjoldenburg@gmail.com&gt;
+Copyright (c) 2009-2013 TJ Holowaychuk <tj@vision-media.ca>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
