@@ -91,7 +91,7 @@ if (keys && !localStorage.transitioned) {
         items[username] = localStorage[key];
     });
 
-    chrome.storage.sync.set(b);
+    chrome.storage.sync.set(items);
 
     localStorage.transitioned = true;
 }

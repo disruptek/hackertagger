@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "HackerTagger",
     "short_name": "HackerTagger",
-    "version": "2",
+    "version": "3",
     "description": "Tag users on HN with useful metadata.",
     "icons": {
         "16": "images/icon_16.png",
