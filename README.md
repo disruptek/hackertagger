@@ -16,8 +16,6 @@ After:
 
 --------
 
-These tags are stored in localStorage for the domain so clearing browser data will completely blow everything away. Taking a backup (lol) is easy though, just JSON.stringify(localStorage) and save that somewhere.
-
 ## License
 
 (The MIT License)

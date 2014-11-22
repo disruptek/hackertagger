@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "HackerTagger",
     "short_name": "HackerTagger",
-    "version": "1",
+    "version": "2",
     "description": "Tag users on HN with useful metadata.",
     "icons": {
         "16": "images/icon_16.png",
@@ -11,6 +11,9 @@
     },
     "homepage_url": "https://github.com/guzba/hackertagger",
     "minimum_chrome_version": "23",
+    "permissions": [
+        "storage"
+    ],
     "content_scripts": [
         {
             "matches": [
